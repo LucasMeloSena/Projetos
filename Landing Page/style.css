@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body {
+    margin: 0px;
+    height: 625px;
+    background: linear-gradient(180deg, #2F2325 0%, rgba(47, 35, 37, 0) 100%), #7E528E;
+    font-size: 100%;
+}
+
+#lucas {
+    font-family: 'Water Brush';
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 32px;
+    position: relative;
+    top: -7px;
+    margin-bottom: 0px;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: solid 0.5px #dfdbdb;
+}
+
+#menuCabecalho {
+    display: flex;
+    gap: 35px;
+}
+
+.paginas {
+    font-family: 'Righteous', sans-serif;
+    color: #dfdbdb;
+}
+
+#formatacao0 {
+    text-decoration: none;
+}
+
+#home {
+    text-decoration: underline white;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+hr {
+    width: 1362px;
+}
+
+.principal { /* Marca o início do conteúdo principal do site */
+    margin-top: 40px;
+    margin-bottom: 42px;
+    /* margin-bottom: 48px */
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#tituloMedicine {
+    font-family: 'Righteous', sans-serif;
+    font-size: 36px;
+    color: #dfdbdb;
+    font-weight: 100;
+    margin: 0px;
+}
+
+#subtitulo {
+    font-family: 'Sarala', sans-serif;
+    color: #dfdbdb;
+    font-weight: 50;
+    margin: 0px;
+    margin-bottom: 25px;
+}
+
+#btn-add {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #dfdbdb;
+    background: #D399E8;
+    box-shadow: 0px 4px 4px #000000;
+    border-radius: 20px;
+    border: white;
+    height: 40px;
+    width: 110px;
+    text-align: center;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.6s;
+}
+
+#infoBot {
+    font-family: 'Righteous', sans-serif;
+    font-size: 13px;
+    color: #dfdbdb;
+    font-weight: 50;
+    margin: 0px;
+    text-align: center;
+}
+
+hr {
+    width: 150px;
+}
+
+.conteudo2 {
+    justify-content: center;
+}
+
+#topicos {
+    text-align: center;
+    font-size: 12px;
+    color: #dfdbdb;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 50;
+    margin-bottom: 35px;
+}
+
+.rodape {
+    border-top: solid 0.5px #dfdbdb;
+}
+
+#elementos {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
+#paginas2 {
+    text-align: center;
+    margin: 5px;
+    font-size: 12px;
+    color: #dfdbdb;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 50;
+    margin-bottom: 0px;
+}
+
+#contato {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding-right: 10px;
+}
+
+.fa-brands {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.fa-solid {
+    color: white;
+    font-size: 22px;
+}
