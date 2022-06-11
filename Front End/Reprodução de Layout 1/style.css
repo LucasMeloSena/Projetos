@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+/* *{border: solid 1px} */
+
+body {
+    margin: 0;
+    background-image: url(fundo.jpg);
+    text-align: center;
+}
+
+#titulo {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 76px;
+    color: #ffffff;
+    /* text-align: center; */
+    font-weight: 50;
+}
+
+#texto {
+    /* text-align: center; */
+    font-family: 'Open Sans', sans-serif;
+    color: #e1e1e1;
+    font-size: 20px;
+}
+
+li {
+    display: inline-block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13px;
+    color: #ffffffcc;
+    font-weight: bold;
+    border: solid 1px;
+    border-radius: 10px;
+    padding: 10px 10px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+li:hover {
+    cursor: pointer;
+    background-color: #ffffff;
+    color: black;
+    font-weight: bold;
+}
+
+#header {
+    background-color: #ffffff;
+    color: black;
+}
+
+#imagens {
+    display: inline-block;
+}
+
+.tamanhoimg {
+    max-width: 30vw;
+    max-height: 30vh;
+    margin-left: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
